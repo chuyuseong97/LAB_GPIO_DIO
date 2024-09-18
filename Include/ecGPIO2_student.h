@@ -13,7 +13,7 @@ Description      : Distributed to Students for LAB_GPIO
 
 #include "stm32f411xe.h"
 #include "ecRCC2_student.h"
-#include "ecPinNames.h"
+#include "ecPinName.h"
 
 #define INPUT  0x00
 #define OUTPUT 0x01
