@@ -8,7 +8,7 @@ Language/ver     : C++ in Keil uVision
 Description      : Distributed to Students for LAB_GPIO
 /----------------------------------------------------------------*/
 
-#include "ecPinNames.h"
+#include "ecPinName.h"
 
 void ecPinmap(PinName_t pinName, GPIO_TypeDef** GPIOx, unsigned int* pin)
 {
