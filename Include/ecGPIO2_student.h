@@ -37,8 +37,6 @@ Description      : Distributed to Students for LAB_GPIO
 #define HIGH 1
 #define LOW  0
 
-#define LED_PIN PA_5  //Find LED Port&Pin and Fill the blank	
-#define BUTTON_PIN PC_13 //Find BTN Port&Pin and Fill the blank
 
 #ifdef __cplusplus
  extern "C" {
@@ -51,6 +49,12 @@ void GPIO_mode(PinName_t pinName, uint32_t mode);
 void GPIO_ospeed(PinName_t pinName, int speed);
 void GPIO_otype(PinName_t pinName, int type);
 void GPIO_pupd(PinName_t pinName, int pupd);
+
+void sevensegment_display_init(PinName_t pinNameA, PinName_t pinNameB, PinName_t pinNameC, PinName_t pinNameD); 
+void sevensegment_display(uint8_t  num);
+
+void sevensegment_decoder_init(void); 
+void sevensegment_decoder(uint8_t  num);
 
 
  
