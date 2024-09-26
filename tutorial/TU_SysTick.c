@@ -1,3 +1,13 @@
+/**
+******************************************************************************
+* @author  SSSLAB
+* @Mod	   2024-09-26 by YuseongChu
+* @brief   Embedded Controller:  Tutorial Systic
+*
+*
+******************************************************************************
+*/
+
 #include "stm32f411xe.h"
 #include "ecRCC2_student.h"
 #include "ecGPIO2_student.h"
