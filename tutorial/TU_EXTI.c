@@ -1,7 +1,7 @@
 /**
 ******************************************************************************
 * @author  SSSLAB
-* @Mod		 2021-8-12 by YuseongChu
+* @Mod	   2024-09-26 by YuseongChu
 * @brief   Embedded Controller:  Tutorial EXTI
 *
 *
